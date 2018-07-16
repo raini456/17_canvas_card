@@ -1,0 +1,37 @@
+/* card.css */
+
+[data-role="myCard"] {
+    position: relative;
+    width: 600px;
+    margin: 20px auto;
+}
+
+[data-role="myCard"] canvas {
+    box-shadow: 0 0 1px 2px #999;
+}
+
+[data-role="myCard"] [data-mycard="text"] {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    display: flex;
+}
+/*!!!!!!!!!Die beiden eckigen Klammern müssen ZWINGEND ein Leertextfeld dazwischen haben .... !!!!!*/
+[data-role="myCard"] [data-mycard="text"] input {
+    border: none;
+    outline: none;
+    width: 100%;          
+    background-color:transparent;
+}
+/*!!!!!!!!!Die beiden eckigen Klammern müssen ZWINGEND ein Leertextfeld dazwischen haben .... !!!!!*/
+[data-role="myCard"] [data-mycard="text"] button {
+    border:none;
+}
+[data-role="myCard"] [data-mycard="textOptions"]{
+    position:absolute;
+    left:0;
+    top:0;
+}
